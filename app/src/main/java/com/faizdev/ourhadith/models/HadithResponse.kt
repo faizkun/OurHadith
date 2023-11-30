@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName
 
 data class HadithResponse(
     @SerializedName("items")
-    val items: List<Any>,
+    val items: List<Item>,
     @SerializedName("name")
     val name: String,
     @SerializedName("pagination")

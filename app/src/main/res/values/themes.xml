@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <style name="Theme.OurHadith" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="MySplashTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_hadith</item>
+        <item name="windowSplashScreenBackground">#121212</item>
+        <item name="postSplashScreenTheme">@style/Theme.OurHadith</item>
+        <item name="windowSplashScreenAnimationDuration">450</item>
+    </style>
 </resources>
